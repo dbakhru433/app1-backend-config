@@ -16,6 +16,6 @@ spec:
       containers:
       - name: backend-container
         # Replace with your DockerHub username if following along
-        image:dbakhrucpg/app1-backend-container:v1.0.0
+        image:dbakhrucpg/app1-backend:v1.0.0
         ports:
         - containerPort: 5000
